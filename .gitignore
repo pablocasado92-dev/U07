@@ -1,0 +1,23 @@
+# Archivos compilados de Java
+*.class
+bin/
+out/
+target/
+lib/
+
+
+# Configuración de VS Code
+.vscode/
+*.code-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*~
