@@ -24,7 +24,7 @@ public class HoraExacta extends Hora{
     public boolean setSegundo(int segundo) {
         boolean valido;
         if (segundo<0 || segundo>59) {
-            System.out.println("Segundo inválido. Deve ser entre 0 e 59.");
+            System.out.println("Segundo inválido. Debe ser entre 0 e 59.");
             valido = false;
         }else {
             this.segundo = segundo;
