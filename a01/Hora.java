@@ -31,7 +31,7 @@ public class Hora {
     public boolean setHora(int hora) {
         boolean valido;
         if (hora<0 || hora>23){
-            System.out.println("Hora inválida. Deve ser entre 0 e 23.");
+            System.out.println("Hora inválida. Debe ser entre 0 e 23.");
             valido = false;
         }else {
             this.hora = hora;
@@ -43,7 +43,7 @@ public class Hora {
     public boolean setMinuto(int minuto) {
         boolean valido;
         if (minuto<0 || minuto>59) {
-            System.out.println("Minuto inválido. Deve ser entre 0 e 59.");
+            System.out.println("Minuto inválido. Debe ser entre 0 e 59.");
             valido = false;
 
         }else {
